@@ -19730,7 +19730,7 @@ var BookComponent = React.createClass({
             React.createElement(
                 "button",
                 { onClick: this.buttonP, style: { border: "none" } },
-                React.createElement("img", { src: "/card23/images/" + this.state.pageNum + "-" + this.state.animationNum + ".png" })
+                React.createElement("img", { src: "images/" + this.state.pageNum + "-" + this.state.animationNum + ".png" })
             ),
             React.createElement(
                 "h3",
