@@ -50,7 +50,7 @@ var BookComponent = React.createClass({
     
    render: function(){
        return <div>
-            <button onClick={this.buttonP} style={{border: "none"}}><img src={"/images/" + this.state.pageNum + "-" + this.state.animationNum + ".png"}></img></button>
+            <button onClick={this.buttonP} style={{border: "none"}}><img src={"/card23/images/" + this.state.pageNum + "-" + this.state.animationNum + ".png"}></img></button>
             <h3>Double Click to Progress</h3>
             <h3>Hold Shift and Double Click to Go Back</h3>
        </div>
